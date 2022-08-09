@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <a href="wheretogo.html">Where To Go</a><br><br>
+    <a href="destination.html">Popular Destination</a><br><br>
+    <a href="package.html">Package</a><br><br>
+    <a href="accomodation.html">Accomodation</a><br><br>
+    <canvas id="myCanvas" width="200" height="200"style="border:1px solid #d3d3d3;">
+    Your browser does not support the canvas element.
+    </canvas>
+    <script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx=canvas.getContext("2d");
+    ctx.font="30px Comic Sans MS";
+    ctx.fillStyle = "black";
+    ctx.textAlign = "center";
+    ctx.fillText("Travel !!", canvas.width/2, canvas.height/2);
+    </script>
+</body>
+</html>
